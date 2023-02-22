@@ -28,7 +28,7 @@ lightgallery: false
 
 </details>
 
-## 二、专辑
+## 三、专辑
 
 <details>
 <summary>展开查看收藏专辑详情</summary>
