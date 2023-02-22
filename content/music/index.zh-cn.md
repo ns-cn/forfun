@@ -33,7 +33,11 @@ lightgallery: false
 <details>
 <summary>展开查看收藏专辑详情</summary>
 
+> 民谣专题
+
 {{< music netease artist 9352 >}}
+
+> 轻音乐专题
 
 {{< music netease album 3184435 >}}
 
