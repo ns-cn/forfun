@@ -6,7 +6,22 @@ draft: false
 lightgallery: false
 ---
 
-## 一、歌单
+## 一、专辑
+
+<details>
+<summary>展开查看收藏专辑详情</summary>
+
+> 轻音乐专题
+
+{{< music netease album 3184435 >}}
+
+> 民谣专题
+
+{{< music netease artist 9352 >}}
+
+</details>
+
+## 二、歌单
 
 <details>
 <summary><strong>1.【十年榜】2000-2009年最强华语金曲TOP100</strong></summary>
@@ -19,26 +34,11 @@ lightgallery: false
 
 </details>
 
-## 二、单曲
+## 三、单曲
 
 <details>
 <summary>展开查看收藏单曲详情</summary>
 
 {{< music "https://music.163.com/#/song?id=1872856513" >}}
-
-</details>
-
-## 三、专辑
-
-<details>
-<summary>展开查看收藏专辑详情</summary>
-
-> 民谣专题
-
-{{< music netease artist 9352 >}}
-
-> 轻音乐专题
-
-{{< music netease album 3184435 >}}
 
 </details>
