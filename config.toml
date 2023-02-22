@@ -79,7 +79,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "软考站"
-        url = "/ruankao"
+        url = "http://tangyujun.com/ruankao/"
         title = "唐毓俊软考"
         weight = 7
       [[languages.zh-cn.menu.main]]
