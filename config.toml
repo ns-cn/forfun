@@ -4,7 +4,7 @@ baseURL = "https://ns-cn.github.io/entertainment"
 defaultContentLanguage = "zh-cn"
 # theme
 # 主题
-theme = "LoveIt"
+theme = "FixIt"
 # themes directory
 # 主题目录
 themesDir = "themes"
@@ -73,7 +73,7 @@ enableEmoji = true
         name = "个人站"
         url = "http://tangyujun.com"
         title = "唐毓俊个人站"
-        weight = 7
+        weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "ruankao"
         pre = "<i class='far fa-copyright fa-fw'></i>"
@@ -81,7 +81,8 @@ enableEmoji = true
         name = "软考站"
         url = "http://tangyujun.com/ruankao/"
         title = "唐毓俊软考"
-        weight = 7
+        parent = "home"
+        weight = 5
       [[languages.zh-cn.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -89,7 +90,7 @@ enableEmoji = true
         name = ""
         url = "https://github.com/ns-cn/entertainment"
         title = "GitHub"
-        weight = 8
+        weight = 6
     [languages.zh-cn.params]
       # 网站描述
       description = "书藏的个人博客，记录学习，记录生活"
@@ -376,6 +377,12 @@ enableEmoji = true
       maxShownLines = 10
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
+    [params.page.edit]
+      enable = false
+      # FixIt 0.2.15 | 更改 编辑的基础链接
+      # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
+      # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
+      url = "/tree/main/content"
     [params.page.math]
       enable = false
       # default block delimiter is $$ ... $$ and \\[ ... \\]
