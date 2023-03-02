@@ -87,7 +87,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "个人站"
-        url = "http://tangyujun.com"
+        url = "https://www.tangyujun.com"
         title = "唐毓俊个人站"
         weight = 6
       [[languages.zh-cn.menu.main]]
@@ -95,7 +95,7 @@ enableEmoji = true
         pre = "<i class='far fa-copyright fa-fw'></i>"
         post = ""
         name = "软考站"
-        url = "http://tangyujun.com/ruankao/"
+        url = "httsp://ruankao.tangyujun.com/"
         title = "唐毓俊软考"
         parent = "home"
         weight = 7
